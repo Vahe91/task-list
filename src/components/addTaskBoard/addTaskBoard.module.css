@@ -1,0 +1,48 @@
+.btn {
+    background-color: unset;
+    border: none;
+    position: absolute;
+    top: 18px;
+    padding: 0;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:first-of-type {
+    left: 10px;
+}
+
+.btn:last-of-type {
+    right: 10px;
+}
+
+.btn:active {
+    color: #007aff;
+}
+
+.name,
+.description {
+    outline: none;
+    width: 98%;
+    font-family: -apple-system,SF Pro Text,SF UI Text,system-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.name {
+    border: none;
+    height: 45px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+}
+
+.description {
+    resize: none;
+    height: 400px;
+    padding-top: 10px;
+    border: 1px solid #e7e7e7;
+}

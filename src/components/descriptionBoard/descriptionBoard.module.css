@@ -1,0 +1,67 @@
+.back_btn {
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    fill: currentColor;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.back_btn:active {
+    color: #007aff;
+}
+
+.back_btn span {
+    margin-left: -5px;
+}
+
+.right_btn {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.done_btn {
+    margin-right: 10px;
+}
+
+.done_btn svg,
+.delete_btn svg {
+    color: #fff;
+    fill: currentColor;
+    width: 40px;
+}
+
+.done_btn svg:active,
+.delete_btn svg:active {
+    color: #007aff;
+}
+
+.name,
+.description {
+    outline: none;
+    width: 98%;
+    font-family: -apple-system,SF Pro Text,SF UI Text,system-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.name {
+    border: none;
+    height: 45px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+}
+
+.description {
+    resize: none;
+    height: 400px;
+    padding-top: 10px;
+    border: 1px solid #e7e7e7;
+}
